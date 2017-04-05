@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>多维分析</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+<body style="background-color:#e7e8ea;">
+	<!-- 多维分析 -->
+	<div class="Demo">
+		<div class="til">
+			<a href="javascript:void(0)" class="active wtab1">标题</a>
+		</div>
+		<div class="con">
+			<div class="con1 con3">
+				<ul>
+					<li class="xia">
+						<a href="javascript:void(0)" class="list1 active">经销商维度</a>
+						<div class="sub weidu">
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">注册地区</a>
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">采购地区</a>
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">售卖地区</a>
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">注册时间</a>
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">最近采购时间</a>
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">最近发货时间</a>
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">企业类型</a>
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">星级</a>
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">供应商客户类型</a>
+							
+						</div>
+					</li>
+					<li class="shang">
+						<a href="javascript:void(0)" class="list2">产品商品维度</a>
+						<div class="sub weidu" style="display:none">
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">产地</a>
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">上架时间</a>
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">产品类型</a>
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">产品规格</a>
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">价位区段</a>
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">原料</a>
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">品牌</a>
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">色泽</a>
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">适用场景</a>
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">酒精度</a>
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">香型</a>
+							
+						</div>
+					</li>
+					<li class="shang">
+						<a href="javascript:void(0)" class="list3">订单维度</a>
+						<div class="sub weidu" style="display:none">
+							<a href="javascript:void(0)" ondragstart="drag(event,this,)">收货地区</a>
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">付款方式</a>
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">促销方式</a>
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">发货时间</a>
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">发货间隔</a>
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">价位区段</a>
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">原料</a>
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">品牌</a>
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">色泽</a>
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">适用场景</a>
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">酒精度</a>
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">香型</a>
+							
+						</div>
+					</li>
+					<li class="shang">
+						<a href="javascript:void(0)" class="list4">终端店维度</a>
+						<div class="sub weidu" style="display:none">
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">所在地区</a>
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">付款方式</a>
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">最近购买时间</a>
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">注册时间</a>
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">终端店类型</a>
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">采购商品规格</a>
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">采购规模</a>
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">采购频率</a>
+							
+						</div>
+					</li>
+					<li class="shang">
+						<a href="javascript:void(0)" class="list5">指标</a>
+						<div class="sub zhibiao" style="display:none">
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">产品数量</a>
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">商品数量</a>
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">产品销量</a>
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">销售金额</a>
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">经销商数量</a>
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">终端店数量</a>
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">采购数量</a>
+							<a href="javascript:void(0)" ondragstart="drag(event,this)">采购金额</a>
+						</div>
+					</li>
+				</ul>
+				<div class="boxWrap">
+					<!-- 维度 -->
+					<div class="box" id="box1">
+						<div class="title title1">维度</div>
+						<div class="content" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+					</div>
+					<!-- 指标 -->
+					<div class="box" id="box2">
+						<div class="title title1">指标</div>
+						<div class="content" ondrop="drop2(event)" ondragover="allowDrop(event)"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+*{margin:0px;padding:0px;}
+body{font-size:14px;font-family:"微软雅黑";color:#666;background-color:#303032;}
+ul,li{list-style:none;}
+img{border:none;}
+a{text-decoration:none;}
+a:hover{text-decoration:none;}
+
+.Demo{overflow:hidden;width: 500px;margin: 0px auto;}
+.Demo .til{overflow:hidden;background-color:#fff;}
+.Demo .til a{display: block;width:100%;font-weight:bold;color:#898a8c;text-align:center;border-bottom:4px solid #e7e8ea;height:46px;line-height:46px;}
+.Demo .con ul{background-color:#fff;padding-bottom:20px;overflow:hidden;overflow-y:overlay;}
+.Demo .con li{min-height:47px;width:100%;border-bottom:1px solid #e7e8ea;margin-left:10px;}
+.Demo .con li.shang{background:url(../images/shang_07.png) no-repeat 180px 20px;}
+.Demo .con li.xia{background:url(../images/xia_11.png) no-repeat 180px 20px;}
+.Demo .con li>a{display:block;height:100%;color:#999;padding-left:55px;line-height:47px;}
+.Demo .con li>a.active{color:#3f8ee9}
+.Demo .con li>a.list1{background:url(../images/abg_03.png) no-repeat 15px center;}
+.Demo .con li>a.list2{background:url(../images/abg2_03.png) no-repeat 15px center;}
+.Demo .con li>a.list3{background:url(../images/abg3_06.png) no-repeat 15px center;}
+.Demo .con li>a.list4{background:url(../images/abg5_06.png) no-repeat 15px center;}
+.Demo .con li>a.list5{background:url(../images/abg6_06.png) no-repeat 15px center;}
+.Demo .con .sub{margin-left:35px;}
+.Demo .con .sub a{overflow:hidden;width:160px;white-space:nowrap;text-overflow:ellipsis;display:block;font-size:12px;color:#999;margin-bottom:13px;background:url(../images/arrow12_03.png) no-repeat left center;padding-left:15px;}
+.Demo .con .sub a span{margin-left:3px;}
+.Demo .boxWrap{margin-top:20px;background-color:#fff;padding:20px 10px;padding-bottom:1px;}
+.Demo .box{border:1px solid #e7e8ea;margin-bottom:20px;position:relative;}
+.Demo .box .title1{background:url(../images/abg9_11_11.png) no-repeat 20px center;}
+.Demo .box .title{background-color:#f3f3f3;height:30px;line-height:30px;padding-left:45px;color:#999;}
+.Demo #box1 .content{height:65px;padding:3px 0px}
+.Demo #box2 .content{height:120px;overflow-y:overlay;}
+.Demo .box .content a{float:left;color:#999;margin:3px 5px;border:1px solid #999;padding:2px 5px;padding-right:20px;background:url(../images/close.png) no-repeat right center;}
